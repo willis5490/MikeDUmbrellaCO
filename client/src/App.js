@@ -9,7 +9,8 @@ import Header from './Components/Header.js'
 function App() {
   return (
    
-     <Router  history={History}>
+   <div>
+       <Router  history={History}>
          <div className="App">
         <Header></Header>
           
@@ -20,6 +21,7 @@ function App() {
             </Switch>
         </div>
       </Router>
+   </div>
   
   );
 }

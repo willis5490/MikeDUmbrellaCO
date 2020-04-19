@@ -1,0 +1,96 @@
+
+/* temp!!! */
+/* Remove!!! */
+html{
+    background: url('./images/y-so-serious-white.png');
+}
+
+
+/* HEADER */
+#headerBody{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#navBody{
+    background-color: black;
+}
+#headerText{
+    color: white;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 10px;
+    /* font-family: 'Berkshire Swash', cursive; */
+}
+
+
+/* Slider */
+.desktopSlidePics{
+    height: 400px !important;
+    width: 100% !important
+}
+
+/* Home */
+.bodyTexts{
+    font-family: 'Open Sans', sans-serif;
+}
+#homeContainer1{
+    position: relative;
+    background: url('./images/y-so-serious-white.png');
+    height: 350px;
+}
+#OnlyText{
+    position: absolute;   
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* MOBILE */
+@media only screen and (max-width: 960px) { 
+    /* Header */
+    #headerText{
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+
+    /* Slider */
+    .desktopSlidePics{
+        height: 650px !important;
+        width: 100% !important
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) { 
+     /* Header */
+    #headerText{
+        font-size: 23px;
+        letter-spacing: 2.5px;
+    }
+
+     /* Slider */
+     .desktopSlidePics{
+        height: 350px !important;
+        width: 100% !important
+    }
+
+}
+
+@media only screen and (max-width: 350px) { 
+    /* Header */
+    #headerText{
+        font-size: 20px;
+    }
+
+     /* Slider */
+     .desktopSlidePics{
+        height: 300px !important;
+        width: 100% !important
+    }
+
+}
