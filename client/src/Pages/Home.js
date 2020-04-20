@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 
 class Home extends Component {
-    
+   
 
   // render nav
   render() {
@@ -12,26 +12,28 @@ class Home extends Component {
       <div id='daWholeApp'>
 
 
+         <div id='homeSlideWrapper'>
+            <div  class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000; pause-on-hover: false; ">
+                <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@m">
+                    <li>
+                        <img className='desktopSlidePics' src=".\images\received_2895012810591063.png" alt=""/>        
+                    </li>
+                    <li>
+                        <img className='desktopSlidePics' src=".\images\received_2823060634446787.png" alt=""/>        
+                    </li>
+                    <li>
+                        <img className='desktopSlidePics' src=".\images\received_1983633798435318.png" alt=""/>        
+                    </li> 
+                    <li>
+                        <img className='desktopSlidePics' src=".\images\received_947063869057637.jpeg" alt=""/>        
+                    </li>
+                    <li>
+                        <img className='desktopSlidePics' src=".\images\received_870435566758746.jpeg" alt=""/>        
+                    </li> 
+                </ul>
+            </div>
+         </div>
          
-          <div  class="uk-position-relative uk-visible-toggle uk-light " tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000;">
-            <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@m">
-                <li>
-                    <img className='desktopSlidePics' src=".\images\received_2895012810591063.png" alt=""/>        
-                </li>
-                <li>
-                    <img className='desktopSlidePics' src=".\images\received_2823060634446787.png" alt=""/>        
-                </li>
-                <li>
-                    <img className='desktopSlidePics' src=".\images\received_1983633798435318.png" alt=""/>        
-                </li> 
-                <li>
-                    <img className='desktopSlidePics' src=".\images\received_947063869057637.jpeg" alt=""/>        
-                </li>
-                <li>
-                    <img className='desktopSlidePics' src=".\images\received_870435566758746.jpeg" alt=""/>        
-                </li> 
-            </ul>
-        </div>
 
         <div id='homeContainer1' className=''>
           <div className='uk-container '>
@@ -42,6 +44,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+
 
 
       </div>

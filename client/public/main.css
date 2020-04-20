@@ -27,6 +27,9 @@ html{
     height: 400px !important;
     width: 100% !important
 }
+#homeSlideWrapper{
+    pointer-events: none;
+}
 
 /* Home */
 .bodyTexts{
