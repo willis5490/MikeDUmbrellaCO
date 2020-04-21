@@ -32,8 +32,7 @@ class Home extends Component {
                     </li>                     
                 </ul>
             </div>
-            <h1 id='balls' className='uk-text-center'>Mike Mike Mike Mike Mike</h1>
-            <img id='cock' width='200px' height='200px' src='https://www.thepubliceditor.com/wp-content/uploads/2018/04/Hump_Day_Camel_Lipstick.jpg'></img>
+           
          </div>
 
 

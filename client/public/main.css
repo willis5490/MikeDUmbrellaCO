@@ -12,10 +12,10 @@ html{
     padding-bottom: 20px;
 }
 #navBody{
-    background-color: black;
+    background: url('./images/y-so-serious-white.png');
 }
 #headerText{
-    color: white;
+    color: #0e8c25;
     font-family: 'Lobster', cursive;
     letter-spacing: 10px;
     /* font-family: 'Berkshire Swash', cursive; */
@@ -30,23 +30,6 @@ html{
 #homeSlideWrapper{
     pointer-events: none;
     position: relative;
-}
-#balls{
-    position: absolute;   
-    top: 15%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-family: 'Open Sans', sans-serif;
-    color: #f007f4;
-}
-#cock{
-    position: absolute;   
-    top: 70%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    opacity: .7;
 }
 
 /* Home */
@@ -101,10 +84,7 @@ html{
         width: 100% !important
     }
 
-    #balls{
-        font-size: 25px;
-        top: 10%;
-    }
+   
 
 }
 
@@ -120,9 +100,6 @@ html{
         width: 100% !important
     }
 
-    #balls{
-        font-size: 20px;
-        top: 5%;
-    }
+   
 
 }
