@@ -2,7 +2,7 @@
 /* temp!!! */
 /* Remove!!! */
 html{
-    background: url('./images/y-so-serious-white.png');
+    background: url('./images/white-waves.png');
 }
 
 
@@ -12,10 +12,10 @@ html{
     padding-bottom: 20px;
 }
 #navBody{
-    background: url('./images/y-so-serious-white.png');
+    background: url('./images/white-waves.png');
 }
 #headerText{
-    color: #0e8c25;
+    color: #0A6A1A;
     font-family: 'Lobster', cursive;
     letter-spacing: 10px;
     /* font-family: 'Berkshire Swash', cursive; */
@@ -38,7 +38,7 @@ html{
 }
 #homeContainer1{
     position: relative;
-    background: url('./images/y-so-serious-white.png');
+    background: url('./images/white-waves.png');
     height: 350px;
 }
 #OnlyText{
