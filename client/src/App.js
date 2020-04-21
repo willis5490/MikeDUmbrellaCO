@@ -5,6 +5,7 @@ import History from './Pages/History/History.js'
 import NotFound from './Pages/NotFound.js'
 import Home from './Pages/Home.js'
 import Header from './Components/Header.js'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
               <Route render={props =><NotFound/>}/>
               
             </Switch>
+
+            <Footer></Footer>
         </div>
       </Router>
    </div>
