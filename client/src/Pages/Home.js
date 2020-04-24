@@ -31,16 +31,20 @@ class Home extends Component {
                         <img className='desktopSlidePics' src=".\images\received_870435566758746.jpeg" alt=""/>        
                     </li>                     
                 </ul>
-            </div>
-           
+            </div>                    
          </div>
+
+         
 
 
         <div id='homeContainer1' className=''>
           <div className='uk-container '>
-            <div className='uk-margin-large-top' uk-grid='true'>
+            <div className='uk-margin-large-top uk-margin-large-bottom' uk-grid='true'>
                 <div className='uk-width-1-1 '>
-                  <h1 id='OnlyText' className=' uk-text-center bodyTexts'><i>COMING SUMMER <span><h1 className='uk-text-center'>2020</h1></span></i></h1>
+                <div id='OnlyText'>
+                    <h1 id='HomeHeader' className='uk-text-center bodyTexts '>Building Happier, Healthier Communities!</h1>
+                    <h2 id='comingSooonText'  className=' uk-text-center bodyTexts'><i>COMING SUMMER <span><h2 id='comingSooonText'  className='uk-text-center'>2020</h2></span></i></h2>
+                </div>
                 </div>
             </div>
           </div>
