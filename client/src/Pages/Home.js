@@ -64,8 +64,8 @@ class Home extends Component {
             <div className='uk-container'>
                 <div uk-grid='true'>
                     <div className='uk-width-1-1 uk-margin-large-top'>  
-                        <h1 className='uk-text-left uk-margin-remove-bottom'>Our</h1>
-                        <h1 className='uk-text-left uk-margin-remove-top homecontainer2Text'><b>Ventures</b></h1>
+                        <h1 style={{marginBottom:'-10px'}} className='uk-text-left '>OUR</h1>
+                        <h1 className='uk-text-left uk-margin-remove-top homecontainer2Text'><b>VENTURES</b></h1>
                         <hr id='homeHR2' className='uk-margin-medium-top'></hr>
                     </div>
                 </div>
