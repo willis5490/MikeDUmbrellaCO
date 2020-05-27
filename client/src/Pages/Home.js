@@ -14,25 +14,28 @@ class Home extends Component {
 
          <div id='homeSlideWrapper'>
         
-            <div id='SlideWrap' class=" uk-visible-toggle uk-light " tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 3000; pause-on-hover: false; ">
+            <div id='SlideWrap' class=" uk-visible-toggle uk-light " tabindex="-1" uk-slider="autoplay: true; autoplay-interval: 2500; pause-on-hover: false; ">
                 <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@m">
                     <li>
-                        <img className='desktopSlidePics' src=".\images\received_2895012810591063.png" alt=""/>        
+                        <img className='desktopSlidePics' src=".\images\smoothies-2253430_1920.jpg" alt=""/>        
                     </li>
                     <li>
-                        <img className='desktopSlidePics' src=".\images\received_2823060634446787.png" alt=""/>        
-                    </li>
+                        <img className='desktopSlidePics' src=".\images\active-5078219_1920.jpg" alt=""/>        
+                    </li>             
                     <li>
-                        <img className='desktopSlidePics' src=".\images\received_1983633798435318.png" alt=""/>        
-                    </li> 
+                        <img className='desktopSlidePics' src=".\images\team-386673_1920.jpg" alt=""/>        
+                    </li>                      
                     <li>
-                        <img className='desktopSlidePics' src=".\images\received_947063869057637.jpeg" alt=""/>        
-                    </li>
+                        <img className='desktopSlidePics' src=".\images\smoothies-2253423_1920.jpg" alt=""/>        
+                    </li>  
                     <li>
-                        <img className='desktopSlidePics' src=".\images\received_870435566758746.jpeg" alt=""/>        
-                    </li>                     
+                        <img className='desktopSlidePics' src=".\images\pets-4415649_1920.jpg" alt=""/>        
+                    </li>  
+                    <li>
+                        <img className='desktopSlidePics' src=".\images\person-1245959_1920.jpg" alt=""/>        
+                    </li>                                
                 </ul>
-                <img id='homesliderLogo' src='./images/ASPENLV.png'></img>
+                <img className='uk-align-center uk-margin-auto-vertical' id='homesliderLogo' src='./images/ASPENLV.png'></img>
             </div>                    
          </div>
 
@@ -70,7 +73,7 @@ class Home extends Component {
                 <div className='uk-margin-large-top'>
                     <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin " uk-grid='true'>
                         <div class="uk-card-media-left uk-cover-container">
-                            <img src=".\images\received_2895012810591063.png" alt="" uk-cover/>
+                            <img src=".\images\detox-1995433_1920.jpg" alt="" uk-cover/>
                            
                         </div>
                         <div className='uk-margin-auto-vertical'>
@@ -94,7 +97,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div class="uk-card-media-right uk-cover-container">
-                        <img src=".\images\received_2895012810591063.png" alt="" uk-cover/>
+                        <img src=".\images\dog-4988986_1920.jpg" alt="" uk-cover/>
                        
                     </div>
                     <hr id='homeHR3' className='uk-margin-large-top'></hr>
@@ -102,7 +105,7 @@ class Home extends Component {
 
                  <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin uk-hidden@s uk-margin-large-bottom uk-margin-large-top" uk-grid='true'>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src=".\images\received_2895012810591063.png" alt="" uk-cover/>
+                        <img src=".\images\dog-4988986_1920.jpg" alt="" uk-cover/>
                        
                     </div>
                     <div className='uk-margin-auto-vertical'>
@@ -117,7 +120,7 @@ class Home extends Component {
 
                 <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin  uk-margin-large-bottom uk-margin-large-top" uk-grid='true'>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src=".\images\received_2895012810591063.png" alt="" uk-cover/>                       
+                        <img src=".\images\people-4050698_1920.jpg" alt="" uk-cover/>                       
                     </div>
                     <div className='uk-margin-auto-vertical'>
                         <div class="uk-card-body uk-text-center">
