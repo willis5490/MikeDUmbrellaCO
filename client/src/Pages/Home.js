@@ -120,7 +120,7 @@ class Home extends Component {
 
                 <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin  uk-margin-large-bottom uk-margin-large-top" uk-grid='true'>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src=".\images\people-4050698_1920.jpg" alt="" uk-cover/>                       
+                        <img src=".\images\men-1245982_1920.jpg" alt="" uk-cover/>                       
                     </div>
                     <div className='uk-margin-auto-vertical'>
                         <div class="uk-card-body uk-text-center">
