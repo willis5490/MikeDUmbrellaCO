@@ -49,11 +49,7 @@ class Home extends Component {
                     <div className='uk-width-1-1 uk-text-center'>
                         <h1 className='homeContainer1Header'>BUILDING HAPPY, HEALTHY COMMUNITIES</h1>
                         <hr id='homeHR1' className='uk-align-center'></hr>
-                        <h4 className='homeConatiner1Bio'> when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                            It has survived not only five centuries, but also the leap into electronic typesetting, 
-                            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
-                            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like 
-                            Aldus PageMaker including versions of Lorem Ipsum.</h4>
+                        <h4 className='homeConatiner1Bio'>Aspenleaf Ventures has a longterm vision that is focused around connecting with as many individuals as possible from all demographics. We believe that by connecting with people through food, health, and hospitality, we can create happier, healthier communities from the inside out. We hope that as we grow as a brand and as a business, our communities grow as well. We started in Colorado, expanded to New England, and can not wait to see what Salt Lake and Park City has to offer!</h4>
                     </div>
                 </div>
             </div>            
@@ -71,16 +67,20 @@ class Home extends Component {
                 </div>
 
                 <div className='uk-margin-large-top'>
-                    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin " uk-grid='true'>
+                    <div class="uk-card  uk-grid-collapse uk-child-width-1-2@m uk-margin " uk-grid='true'>
                         <div class="uk-card-media-left uk-cover-container">
                             <img src=".\images\detox-1995433_1920.jpg" alt="" uk-cover/>
                            
                         </div>
                         <div className='uk-margin-auto-vertical'>
                             <div class="uk-card-body uk-text-center ">
-                                <h1 class="uk-card-title">Company 1</h1>
+                                <h2 class="">Blended</h2>
                                 <hr id='homeCardHR' className='uk-align-center'></hr>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                <p>The Blended Team is dedicated to providing the best possible value for each of our hungry customers. 
+                                    We specialize in smoothies, salads, and sandwiches, however we love to mix in daily specials including 
+                                    soups, tacos, and sushi. Blended is currently offering private catrering services in the Park City and 
+                                    Salt Lake City area. We are not setting up storefront sales until the pandemic is at a point where it 
+                                    allows us to safely do so. Thank you for your support!</p>
                             </div>
                         </div>
                         <hr id='homeHR3' className='uk-margin-large-top'></hr>
@@ -88,12 +88,17 @@ class Home extends Component {
                     
                 </div>
 
-                <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-visible@s uk-margin uk-margin-large-top " uk-grid='true'>
+                <div class="uk-card  uk-grid-collapse uk-child-width-1-2@m uk-visible@m uk-margin uk-margin-large-top " uk-grid='true'>
                     <div className='uk-margin-auto-vertical'>
                         <div class="uk-card-body uk-text-center">
-                            <h1 class="uk-card-title">Company 2</h1>
+                            <h2 class="">Aspen Leaf CBD</h2>
                             <hr id='homeCardHR' className='uk-align-center'></hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <p>AspenLeaf CBD is dedicated to sourcing and processing the best possible products for all of 
+                                our clients' needs. We enjoy attending various sports events nationwide, and can not wait 
+                                until the pandemic is over so that we may better serve you. For the time being, you may 
+                                reach out to one of our dedicated sales professionals through our instagram page. You may 
+                                also find us at your next ski or snowboarding competition, pandemic permitting. Thank you 
+                                for your patience and support!</p>
                         </div>
                     </div>
                     <div class="uk-card-media-right uk-cover-container">
@@ -103,33 +108,44 @@ class Home extends Component {
                     <hr id='homeHR3' className='uk-margin-large-top'></hr>
                 </div>
 
-                 <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin uk-hidden@s uk-margin-large-bottom uk-margin-large-top" uk-grid='true'>
+                 <div class="uk-card  uk-grid-collapse uk-child-width-1-2@m uk-margin uk-hidden@m uk-margin-large-bottom uk-margin-large-top" uk-grid='true'>
                     <div class="uk-card-media-left uk-cover-container">
                         <img src=".\images\dog-4988986_1920.jpg" alt="" uk-cover/>
                        
                     </div>
                     <div className='uk-margin-auto-vertical'>
                         <div class="uk-card-body uk-text-center">
-                            <h1 class="uk-card-title">Company 2</h1>
+                            <h2 class="">Aspen Leaf CBD</h2>
                             <hr id='homeCardHR' className='uk-align-center'></hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <p>AspenLeaf CBD is dedicated to sourcing and processing the best possible products for all of 
+                                our clients' needs. We enjoy attending various sports events nationwide, and can not wait 
+                                until the pandemic is over so that we may better serve you. For the time being, you may 
+                                reach out to one of our dedicated sales professionals through our instagram page. You may 
+                                also find us at your next ski or snowboarding competition, pandemic permitting. Thank you 
+                                for your patience and support!</p>
                         </div>
                     </div>
                     <hr id='homeHR3' className='uk-margin-large-top'></hr>
                 </div>
 
-                <div class="uk-card  uk-grid-collapse uk-child-width-1-2@s uk-margin  uk-margin-large-bottom uk-margin-large-top" uk-grid='true'>
+                <div class="uk-card  uk-grid-collapse uk-child-width-1-2@m uk-margin  uk-margin-large-bottom uk-margin-large-top" uk-grid='true'>
                     <div class="uk-card-media-left uk-cover-container">
                         <img src=".\images\men-1245982_1920.jpg" alt="" uk-cover/>                       
                     </div>
                     <div className='uk-margin-auto-vertical'>
                         <div class="uk-card-body uk-text-center">
-                            <h1 class="uk-card-title">Company 3</h1>
+                            <h2 class="">Pocket PT</h2>
                             <hr id='homeCardHR' className='uk-align-center'></hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <p>Pocket PT works hand in hand with the leading electronic muscle stimulator brand in the 
+                                country. The devices we use with our clients are used by both everyday people with aches 
+                                and pains, and also professional athletes such as the Carolina Panthers, LA Kings, US Ski 
+                                Team and UFC. We are dedicated to providing continued support through the pandemic. If you 
+                                live in the Salt Lake City or surroundiung area, we can come directly to your home for a 
+                                scheduled appointment, or you may schedule a drop off at a time that is convenient for you. 
+                                We hope to hear from you soon!</p>
                         </div>
                     </div>
-                    <hr id='homeHR3' className='uk-margin-large-top'></hr>
+                    <hr id='homeHR3' className='uk-margin-large-top'></hr>                
                 </div>
 
 
